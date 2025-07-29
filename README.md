@@ -1,0 +1,2 @@
+# image_doload
+一个通过lolicon的api进行大量爬取图片的工具
