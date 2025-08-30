@@ -119,6 +119,7 @@ def reque(x):
             except TimeoutError:
                 print('任务超时……')
 x = int(input("次数(次数*20为下载的数量)："))
+print('将下载'+str(20*x)+'张')
 loggingg.info(f'用户输入：{x}')
 print("对目标网址的检查……")
 vs = 1
@@ -151,4 +152,5 @@ loggingg.info('---程序结束---')
 entime = time.time()
 print("用时：",entime-sttime)
 print(f'一共404了{p404}张')
+
 
