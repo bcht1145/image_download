@@ -12,7 +12,7 @@ python _image_please_25_07_30.py
 
 ## 依赖
 ```bash
-pip install requests lxml
+pip install requests
 ```
 
 ## 免责声明
