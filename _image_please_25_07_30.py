@@ -1,6 +1,5 @@
 from concurrent.futures import *
 import requests
-from lxml import etree
 import logging
 import time
 import os
@@ -152,5 +151,6 @@ loggingg.info('---程序结束---')
 entime = time.time()
 print("用时：",entime-sttime)
 print(f'一共404了{p404}张')
+
 
 
